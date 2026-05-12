@@ -1,14 +1,18 @@
 # Graduate Management
 
+![Java](https://img.shields.io/badge/Java-Spring%20Boot-orange)
+![Maven](https://img.shields.io/badge/Build-Maven-blue)
+![Type](https://img.shields.io/badge/Project-Student%20Management-green)
+
 ## Overview
 
 This repository is a simple Spring Boot practice project for graduate or student information management. It combines a lightweight backend with static front-end resources in one application.
 
-## Tech Stack
+## Highlights
 
-- Java
-- Spring Boot
-- Maven
+- small full-stack practice structure
+- Spring Boot backend with static front-end pages
+- simple user-entity and controller flow
 
 ## Project Structure
 
@@ -34,4 +38,3 @@ mvn spring-boot:run
 
 - The current project structure is small and course-project oriented.
 - Static files are already bundled under `src/main/resources/static/`.
-- A good next step would be documenting the page flow and adding screenshots.
