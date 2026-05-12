@@ -1,23 +1,8 @@
 # Graduate Management
 
-This repository is a simple Spring Boot practice project for graduate or student information management.
+## Overview
 
-From the current code structure, it looks like an early backend web project that combines Java entities, controllers, and static resources in a single application.
-
-## Project Structure
-
-- `pom.xml`: Maven project configuration
-- `src/main/java/com/niuniu/`: Java source code
-- `src/main/resources/application.properties`: Spring Boot configuration
-- `src/main/resources/static/`: static front-end resources
-
-## Current Code Layout
-
-The Java package currently includes:
-
-- `SpringbootWeb01Application.java`: application entry point
-- `pojo/User.java`: basic entity class
-- additional controller-related code under the same package tree
+This repository is a simple Spring Boot practice project for graduate or student information management. It combines a lightweight backend with static front-end resources in one application.
 
 ## Tech Stack
 
@@ -25,17 +10,13 @@ The Java package currently includes:
 - Spring Boot
 - Maven
 
-## Configuration
+## Project Structure
 
-The project currently uses:
-
-- port `8080`
-- static resource mapping through Spring MVC
-- Jackson date/time formatting configuration
-
-Main config file:
-
-- `src/main/resources/application.properties`
+- `pom.xml`: Maven configuration
+- `src/main/java/com/niuniu/`: application source code
+- `src/main/resources/application.properties`: Spring Boot configuration
+- `src/main/resources/static/`: static web resources
+- `src/main/java/com/niuniu/pojo/controller/UserController.java`: example controller
 
 ## Build
 
@@ -51,5 +32,6 @@ mvn spring-boot:run
 
 ## Notes
 
-- This repository looks like an early learning or course project, so the current structure is quite lightweight.
-- If you want to make it easier for others to understand, the next useful addition would be screenshots and a short explanation of the business flow.
+- The current project structure is small and course-project oriented.
+- Static files are already bundled under `src/main/resources/static/`.
+- A good next step would be documenting the page flow and adding screenshots.
